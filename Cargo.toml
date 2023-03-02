@@ -1,0 +1,13 @@
+[package]
+name = "voyeur-chat-lib"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+num-bigint = "0.4.3"
+num-integer = "0.1.45"
+num-primes = { git = "https://github.com/credman0/num-primes", version = "0.3.0" }
+num-traits = "0.2.15"
+ring-algorithm = { version = "0.6.1" }

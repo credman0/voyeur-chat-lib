@@ -1,0 +1,3 @@
+A library that allows encrypting group messages so that everyone except the recipient can read them.
+
+Create a group struct, add keys for the group members, and then use encrypt_targeted to send a message that anyone in that group can decrypt except the target. There is also an encrypt_msg function used in the test that allows anyone in the group to decrypt, but it has not been made public due to potential utility.
